@@ -15,7 +15,7 @@ header img{
 
 #obsah{
     width:100%;
-    background-color:white;
+    background-color:grey;
     height: max-content;
     
 }
@@ -68,3 +68,24 @@ nav a.active {
     color: black;
     
   }
+
+.container {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    background: white;
+    padding: 0.3em;
+    margin: 0.3em;
+}
+
+h1 {
+    font-size: 1em;
+    
+}
