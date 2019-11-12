@@ -21,7 +21,7 @@ header img{
 }
 
 body{
-   background-color: black;
+   background-color: white;
    margin: auto; 
 }
 
@@ -31,7 +31,21 @@ footer{
     height: 50px;
     position: fixed;
     bottom: 0;
-    background-color:blue;   
+    background-color:black; 
+    color: white;  
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer img{
+  width: 30px;
+  height: 30px;
 }
 
 *{
