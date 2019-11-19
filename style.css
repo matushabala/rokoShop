@@ -1,106 +1,104 @@
-header{
-    background-color:#333;
-    width:100%;
-    height: max-content;
-    text-align: center;
+header {
+  background-color: #333;
+  width: 100%;
+  height: max-content;
+  text-align: center;
 }
 
-header img{
-    width: 180px;
-    float: right;
-    
+header img {
+  width: 180px;
+  float: right;
 }
 
-
-#obsah{
-    width:100%;
-    background-color:grey;
-    height: max-content;
-    
+#obsah {
+  width: 100%;
+  background-color: grey;
+  height: max-content;
 }
 
-body{
-   background-color: white;
-   margin: auto; 
+body {
+  background-color: white;
+  margin: auto;
+  text-decoration: none;
 }
 
-
-footer{
-    width:960px;
-    height: 50px;
-    position: fixed;
-    bottom: 0;
-    background-color:black; 
-    color: white;  
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
+footer {
+  width: 960px;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: white;
-  
 }
 
-footer img{
+footer img {
   width: 30px;
   height: 30px;
 }
 
-*{
-    scroll-behavior: smooth;
-    margin: auto;
+* {
+  scroll-behavior: smooth;
+  margin: auto;
+  text-decoration: none;
 }
-#wrapper{
-    width:960px;
-    margin:0 auto;
-
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
 }
 
-nav{
-    padding-top: 15px;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
+nav {
+  padding-top: 15px;
+  overflow: hidden;
+  background-color: #333;
+}
+
 nav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
 nav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
+  background-color: #ddd;
+  color: black;
+}
+
 nav a.active {
-    background-color: grey;
-    color: black;
-    
-  }
+  background-color: grey;
+  color: black;
+}
 
 .container {
-     display: flex;
-     flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 ul {
-    list-style-type: none;
-    text-align: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 li {
-    background: white;
-    padding: 0.3em;
-    margin: 0.3em;
+  background: white;
+  padding: 0.3em;
+  margin: 0.3em;
 }
 
 h1 {
-    font-size: 1em;
-    
+  font-size: 1em;
+}
+
+ul li img {
+  margin: 10px;
 }
