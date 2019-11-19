@@ -10,12 +10,13 @@ header img {
   float: right;
 }
 
-#obsah {
-  width: 100%;
-  background-color: grey;
-  min-height: 700px;
-  height: max-content;
+#obsah{
+    width:100%;
+    background-color:rgb(209, 209, 209);
+    min-height: 700px;
+    height: max-content;   
 }
+
 
 body {
   background-color: white;
