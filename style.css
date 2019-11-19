@@ -102,3 +102,39 @@ h1 {
 ul li img {
   margin: 10px;
 }
+
+.clenovia {
+  overflow: hidden;
+background-color: #898989;	
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 0 0 15px 0;
+  
+}
+
+.clenovia img {
+  width: 150px;	
+  margin: 0 50px 0 50px;
+  float: left;
+  border-radius: 50%;
+}
+
+.clenovia h2 {
+margin: 0 0 0 0;
+font-family: 'Courier New', Courier, monospace;
+color: black;
+font-size: 30px;
+}
+
+.clenovia h3 {
+margin: 2px 0 12px 0;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+color: #071013;
+}
+
+.clenovia p {	
+font-family: 'Century Gothic', sans-serif;
+color: black;
+font-size: 18px;
+}
