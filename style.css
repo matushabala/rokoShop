@@ -13,6 +13,7 @@ header img {
 #obsah {
   width: 100%;
   background-color: grey;
+  min-height: 700px;
   height: max-content;
 }
 
