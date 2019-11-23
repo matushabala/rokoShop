@@ -33,18 +33,19 @@ header img{
   background-color: #379683;
   padding: 3px 0 3px 25px;
   margin: 20px 0 20px 0 ;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 #news p{
   margin: 0 20px 20px 40px;
 }
 
-#news a{
+#news .link{
+  text-decoration: underline;
   color: #379683;
 }
 
-#news a:hover{
+#news .link:hover{
   background-color:#379683 ;
   color: white;
 }
@@ -53,6 +54,23 @@ header img{
   width: 400px;
   height: 300px;
   margin: 0 0 0 280px;
+}
+
+#news button {
+  margin: 0 20px 20px 0;
+  width: 26%;
+  height: 10%;
+  background-color: turquoise;
+  color: black;
+  font-size: 15px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#news button:hover{
+  background-color: aqua;
 }
 
 body{
@@ -255,6 +273,7 @@ margin:50px 0px 50px 200px;
 }
 
 #onas h1{
+font-size: 30px;
 background-color: #379683;
 padding: 3px 0 3px 25px;
 margin: 0 0 10px 0 ;
@@ -269,4 +288,75 @@ padding-bottom: 40px;
 #onas img{
 margin:20px 0px 20px 200px;
 width: 560px
+}
+
+.bfcontainer {
+  position: relative;
+  right: 29%;
+  width: 200%;
+  max-width: 400px;
+}
+
+.bfcontainer img {
+  width: 200%;
+  height: auto;
+}
+
+.bfcontainer .btn {
+  width: 70%;
+  height: 10%;
+  font-family: 'Alfa Slab One';
+  position: absolute;
+  top: 80%;
+  left: 180%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.bfcontainer .btn:hover {
+  background-color: #a1d30d;
+  color: white;
+}
+
+#firma h1 {
+  padding: 3px 0 3px 25px;
+  margin: 20px 0 20px 0 ;
+  font-size: 30px;
+}
+
+#firma p {
+  margin: 0 20px 20px 40px;
+}
+
+#firma .tlacidlo {
+  margin: 0 20px 20px 40px;
+  width: 15%;
+  height: 10%;
+  background-color: turquoise;
+  color: black;
+  font-size: 15px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#firma .tlacidlo:hover {
+  background-color: aqua;
+}
+
+.rokonews {
+  font-size: 50px;
+  color: black;
+  background-color: 	#287ac3;
+  text-align: center;
+  
 }
