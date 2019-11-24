@@ -40,12 +40,10 @@ color: black;
 ***********/
 
 body{
-  background-color: blue;
-  margin: auto;
-  background-image: url(obr/pozadie.jfif) ; 
+  background-image: url(obr/pozadie.jfif) ;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
 }
 
 /***********
