@@ -388,3 +388,20 @@ font-weight: bold;
   background-color: #379683;
 }
 
+#onas h1{
+  background-color: #379683;
+  padding: 3px 0 3px 25px;
+  margin: 0 0 10px 0 ;
+  
+  }
+  
+  #onas p{
+  margin: 0 25px 0 40px;
+  padding-bottom: 40px;
+  }
+  
+  #onas img{
+  margin:20px 0px 20px 200px;
+  width: 560px
+  }
+  
