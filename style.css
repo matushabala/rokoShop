@@ -1,3 +1,66 @@
+
+/***********
+****page****
+***********/
+
+*{
+  scroll-behavior: smooth;
+  margin: auto;
+  font-family: 'Century Gothic', sans-serif;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+ list-style-type: none;
+ text-align: center;
+}
+
+li {
+ background: white;
+ padding: 0.3em;
+ margin: 0.3em;
+}
+
+h1 {
+font-size: 20px;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+/***********
+****body****
+***********/
+
+body{
+  background-color: blue;
+  margin: auto;
+  background-image: url(obr/pozadie.jfif) ; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/***********
+***wrapper**
+***********/
+
+#wrapper{
+  width:960px;
+  margin:0 auto;
+}
+
+/***********
+***header***
+***********/
+
 header{
   background-color:#333;
   width:100%;
@@ -10,113 +73,9 @@ header img{
   float: right;
 }
 
-#obsah{
-  width:100%;
-  background-color:white;
-  min-height: 700px;
-  height: max-content;   
-  padding: 0 0 20px 0;
-}
-
-#obsah iframe{
-  width: 400px;
-  height: 200px;
-  margin: 0 0 0 280px;
-}
-
-#obsah h1{
-  padding: 20px 0 3px 25px;
-  margin: 0 0 20px 0 ;
-}
-
-#news h2{
-  background-color: #379683;
-  padding: 3px 0 3px 25px;
-  margin: 20px 0 20px 0 ;
-  font-size: 25px;
-}
-
-#news p{
-  margin: 0 20px 20px 40px;
-}
-
-#news .link{
-  text-decoration: underline;
-  color: #379683;
-}
-
-#news .link:hover{
-  background-color:#379683 ;
-  color: white;
-}
-
-#news img{
-  width: 400px;
-  height: 300px;
-  margin: 0 0 0 280px;
-}
-
-#news button {
-  margin: 0 20px 20px 0;
-  width: 26%;
-  height: 10%;
-  background-color: turquoise;
-  color: black;
-  font-size: 15px;
-  padding: 12px 24px;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-
-#news button:hover{
-  background-color: aqua;
-}
-
-body{
- background-color: blue;
- margin: auto;
- background-image: url(obr/pozadie.jfif) ; 
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
-}
-
-
-footer{
-  
-  width:960px;
-  height: 50px;
-  position: fixed;
-  bottom: 0;
-  background-color:black; 
-  color: white;  
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-}
-
-footer a{
-text-decoration: none;
-color: white;
-
-}
-
-footer img{
-width: 30px;
-height: 30px;
-}
-
-*{
-  scroll-behavior: smooth;
-  margin: auto;
-  font-family: 'Century Gothic', sans-serif;
-  
-}
-#wrapper{
-  width:960px;
-  margin:0 auto;
-}
+/***********
+*****NAV****
+***********/
 
 nav{
   padding-top: 15px;
@@ -144,30 +103,187 @@ nav a.active {
   
 }
 
-.container {
-   display: flex;
-   flex-wrap: wrap;
+/***********
+***obsah***
+***********/
+
+#obsah{
+  width:100%;
+  background-color:white;
+  min-height: 700px;
+  height: max-content;   
+  padding: 0 0 20px 0;
 }
 
-ul {
-  list-style-type: none;
+#obsah iframe{
+  width: 400px;
+  height: 200px;
+  margin: 0 0 0 280px;
+}
+
+#obsah h1{
+  padding: 20px 0 3px 25px;
+  margin: 0 0 20px 0 ;
+}
+
+.bfcontainer {
+  position: relative;
+  right: 29%;
+  width: 200%;
+  max-width: 400px;
+}
+
+.bfcontainer img {
+  width: 200%;
+  height: auto;
+}
+
+.bfcontainer .btn {
+  width: 70%;
+  height: 10%;
+  font-family: 'Alfa Slab One';
+  position: absolute;
+  top: 80%;
+  left: 180%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
   text-align: center;
 }
 
-li {
-  background: white;
-  padding: 0.3em;
-  margin: 0.3em;
+.bfcontainer .btn:hover {
+  background-color: rgb(206, 206, 20);
+  color: white;
 }
 
-h1 {
-font-size: 20px;
+/***********
+****news****
+***********/
+
+iframe{
+  margin:50px 0px 50px 200px;
 }
 
-a {
+#news h2{
+  background-color: #379683;
+  padding: 3px 0 3px 25px;
+  margin: 20px 0 20px 0 ;
+  font-size: 18px;
+}
+
+#news p{
+  margin: 0 20px 20px 40px;
+}
+
+#news .link{
+  text-decoration: underline;
+  color: #379683;
+}
+
+#news .link:hover{
+  background-color:#379683 ;
+  color: white;
+}
+
+#news img{
+  width: 400px;
+  height: 300px;
+  margin: 0 0 0 280px;
+}
+
+#news button {
+  margin: 0 20px 20px 0;
+  width: 26%;
+  height: 10%;
+  background-color: #333;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#news button:hover{
+  background-color: #379683;
+  color: black;
+}
+
+.rokonews {
+  font-size: 50px;
+  background-color:	#379683;
+  font-size: 50px;
+  display: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#firma h1 {
+  padding: 3px 0 3px 25px;
+  margin: 20px 0 20px 0 ;
+  font-size: 30px;
+}
+
+#firma p {
+  margin: 0 20px 20px 40px;
+}
+
+#firma .tlacidlo {
+  margin: 0 20px 20px 40px;
+  width: 15%;
+  height: 10%;
+  background-color: #333;
+  color: white;
+  font-size: 15px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#firma .tlacidlo:hover {
+  background-color: #379683;
+  color: black;
+}
+
+
+/***********
+***footer***
+***********/
+
+footer{
+  
+  width:960px;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  background-color:black; 
+  color: white;  
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+footer a{
 text-decoration: none;
-color: black;
+color: white;
+
 }
+
+footer img{
+width: 30px;
+height: 30px;
+}
+
+/***********
+**clenovia**
+***********/
 
 .clenovia {
 overflow: hidden;
@@ -204,6 +320,10 @@ font-family: 'Century Gothic', sans-serif;
 color: black;
 font-size: 18px;
 }
+
+/***********
+**produkty**
+***********/
 
 #produkt{
 padding: 0 25px 0 0 ;
@@ -268,95 +388,3 @@ font-weight: bold;
   background-color: #379683;
 }
 
-iframe{
-margin:50px 0px 50px 200px;
-}
-
-#onas h1{
-font-size: 30px;
-background-color: #379683;
-padding: 3px 0 3px 25px;
-margin: 0 0 10px 0 ;
-
-}
-
-#onas p{
-margin: 0 25px 0 40px;
-padding-bottom: 40px;
-}
-
-#onas img{
-margin:20px 0px 20px 200px;
-width: 560px
-}
-
-.bfcontainer {
-  position: relative;
-  right: 29%;
-  width: 200%;
-  max-width: 400px;
-}
-
-.bfcontainer img {
-  width: 200%;
-  height: auto;
-}
-
-.bfcontainer .btn {
-  width: 70%;
-  height: 10%;
-  font-family: 'Alfa Slab One';
-  position: absolute;
-  top: 80%;
-  left: 180%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: red;
-  color: white;
-  font-size: 20px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.bfcontainer .btn:hover {
-  background-color: #a1d30d;
-  color: white;
-}
-
-#firma h1 {
-  padding: 3px 0 3px 25px;
-  margin: 20px 0 20px 0 ;
-  font-size: 30px;
-}
-
-#firma p {
-  margin: 0 20px 20px 40px;
-}
-
-#firma .tlacidlo {
-  margin: 0 20px 20px 40px;
-  width: 15%;
-  height: 10%;
-  background-color: turquoise;
-  color: black;
-  font-size: 15px;
-  padding: 12px 24px;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
-}
-
-#firma .tlacidlo:hover {
-  background-color: aqua;
-}
-
-.rokonews {
-  font-size: 50px;
-  color: black;
-  background-color: 	#287ac3;
-  text-align: center;
-  
-}
